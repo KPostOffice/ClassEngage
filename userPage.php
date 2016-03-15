@@ -9,7 +9,7 @@
   }
   else if($_POST("user")=="Kevin")
   {
-    if($_POST("pass")==password)
+    if($_POST("pass")=="password")
     {
       siteType=2;
     }
