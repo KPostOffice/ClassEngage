@@ -26,6 +26,7 @@
 <!DOCUtype html>
 <html>
   <header>UserPage</header>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
   <body>
     <h1><?php if(siteType==1){echo "I'm a teacher";}else{echo "I am a student";} ?></h1>
   </body>
