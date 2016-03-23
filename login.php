@@ -1,4 +1,4 @@
-<!DOCUtype html>
+<!DOCTYPE html>
 <html>
   <header>Login</header>
   <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
