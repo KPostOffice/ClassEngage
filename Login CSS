@@ -1,9 +1,4 @@
-/* Remember to link with: <link type="text/css" rel="stylesheet" href="stylesheet.css"/> */
 
-p {
-    
-}
-
-span {
-    
+h1 {
+    color: red;
 }
