@@ -23,7 +23,7 @@
     header("Location = 'login.php?ERROR=1'");
   }
 ?>
-<!DOCtype html>
+<!DOCTYPE html>
 <html>
   <header>UserPage</header>
   <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
