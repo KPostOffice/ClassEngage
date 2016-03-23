@@ -1,6 +1,7 @@
 <!DOCUtype html>
 <html>
   <header>Login</header>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
   <body>
     <div id=container>
       <div id=loginWindow>
