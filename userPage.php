@@ -1,5 +1,9 @@
 <?php
   protected siteType=0;
+  if(!$_POST)
+  {
+    header("Location = 'login.php?ERROR=1'")
+  }
   if($_POST("user")=="teacher")
   {
     if($_POST("pass")=="password")
