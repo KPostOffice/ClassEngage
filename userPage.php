@@ -1,8 +1,10 @@
+
 <?php
-  global $siteType=0;
+  global $siteType;
+  $siteType=0;
   if(empty($_POST))
   {
-    header("Location = 'login.php?ERROR=1'")
+    header("Location = 'login.php?ERROR=1'");
   }
   if($_POST["user"]=="teacher")
   {
