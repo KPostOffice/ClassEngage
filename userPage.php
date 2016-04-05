@@ -1,5 +1,5 @@
 <?php
-  $siteType=0;
+  global $siteType=0;
   if(empty($_POST))
   {
     header("Location = 'login.php?ERROR=1'")
@@ -26,8 +26,17 @@
 <!DOCTYPE html>
 <html>
   <header>UserPage</header>
-  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <!--<link type="text/css" rel="stylesheet" href="stylesheet.css"/>-->
   <body>
-    <h1><?php if($siteType==1){echo "I'm a teacher";}else{echo "I am a student";} ?></h1>
+    <h1><?php if($siteType==1)
+              {
+                echo "I'm a teacher";
+              }
+              else
+              {
+                echo "I am a student";
+              } 
+        ?>
+    </h1>
   </body>
 </html>
