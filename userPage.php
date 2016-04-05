@@ -1,6 +1,5 @@
 
 <?php
-  global $siteType;
   $siteType=0;
   if(empty($_POST))
   {
