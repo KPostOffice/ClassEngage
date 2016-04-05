@@ -32,7 +32,7 @@
               {
                 echo "I'm a teacher";
               }
-              else($)
+              else
               {
                 echo "I am a student";
               } 
